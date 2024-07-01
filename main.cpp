@@ -5,14 +5,14 @@ using namespace std;
 int main()
 {
     cout << "Enter A and B: ";
-int a, b;
+double a, b;
 cin >> a >> b;
-int min;
+double min;
 if (a < b) {
     min = a;
 } else {
 min = b;}
-int max;
+double max;
 if (a > b) {
     max = a;
 } else {
